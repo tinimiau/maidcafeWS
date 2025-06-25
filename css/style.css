@@ -1,0 +1,987 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** navbar **/
+
+header {
+    background-color: #9f113a;
+}
+
+header h1 {
+    color: #ffe6f0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px !important;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+header nav ul {
+    background-color: #9f113a !important;
+}
+
+header nav ul li a {
+    color: aliceblue !important;
+    font-size: 25px !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/** hover de los navlinks **/
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fcb8d2;
+    text-shadow: 0 0 8px #fcb8d2;
+}
+
+.nav-link:not(.dropdown-toggle)::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fcb8d2;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:not(.dropdown-toggle):hover::after {
+    width: 100%;
+}
+
+/**dropdown menu de la navbar **/
+
+.dropdown-menu a {
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #fcb8d2;
+    color: #9f113a;
+    transition: 0.7s ease;
+}
+
+
+/** font **/
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/** banner / imagen **/
+
+.contenedorbanner {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+    color: white;
+    background-image: url(/contenedorimages/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contenedorbanner h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbanner p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+
+/** cajas de texto debajo del banner **/
+
+.banner-dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+
+.textobanner {
+
+    border: 4px solid #9f113a;
+    padding: 20px;
+    max-width: 600px;
+    color: #9f113a;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textobanner h3 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.textobanner h1 {
+    font-size: 80px;
+    color: #ee82ac;
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textobanner h2 {
+    font-size: 75px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textohistoria {
+    text-align: center;
+    color: antiquewhite;
+    background-color: #9f113a;
+    max-width: 600px;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textohistoria h3 {
+    font-size: 35px;
+
+}
+
+.textohistoria p {
+    font-size: 20px;
+}
+
+
+/** logo debajo del banner **/
+
+.yomaid img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/** boton debajo del baner **/
+
+.boton-dos {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ee82ac;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 12px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+
+.boton-dos:hover {
+    background-color: #ffffff;
+    color: #ee82ac;
+    transform: scale(2s);
+
+
+}
+
+.boton-banner-dos {
+    text-align: center;
+}
+
+
+/* * footer **/
+
+.piedepagina {
+    background-color: #9f113a;
+    color: #ffe6f0;
+    padding: 40px 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1 1 45%;
+    min-width: 280px;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+    font-size: 16px;
+    color: #ffe6f0;
+    margin-bottom: 10px;
+}
+
+.links-footer {
+    font-size: 14px;
+    color: aqua;
+}
+
+.links-footer a {
+    color: #a7ddf2;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.links-footer a:hover {
+    text-decoration: underline;
+}
+
+/* links a redes sociales */
+.iconos-bs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.iconos-bs a {
+    font-size: 2rem;
+    color: #ffe6f0;
+    background-color: #ee82ac;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.2s ease;
+}
+
+.iconos-bs a:hover {
+    transform: scale(1.1);
+}
+
+/* banner del menú */
+
+.contenedorbannermenu {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+    color: white;
+    background-image: url(/contenedorimages/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contenedorbannermenu h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbannermenu p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* tarjetas del menú */
+
+.menu-kawaii {
+    background-color: #ffe6f0;
+}
+
+.titulo-menu {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #9f113a;
+}
+
+.card-kawaii {
+    border-radius: 15px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+    transition: all 0.35s ease-in-out;
+}
+
+.card-kawaii:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 0 20px rgba(252, 184, 210, 0.6);
+    border-color: #fcb8d2;
+    background-color: #fff0f5;
+}
+
+
+.card-kawaii .card-title {
+    font-size: 20px;
+    color: #9f113a;
+    font-weight: bold;
+}
+
+.card-kawaii .card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.card-kawaii .precio {
+    font-size: 18px;
+    color: #d63384;
+    margin-top: 10px;
+}
+
+/* imagenes tarjeta menu */
+
+.card-img-top {
+    height: 380px;
+}
+
+/* texto */
+
+.titulo-menu {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.9rem !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-text {
+    font-size: 1.5rem !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* formulario reservas */
+
+.formulario-footer {
+  border-radius: 15px;
+  color: #9f113a;
+  background-color: #ffe6f0;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.4);
+}
+
+.formulario-footer h3,
+.formulario-footer h4 {
+  margin: 10px 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.formulario-contacto input, .formulario-contacto textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.boton-formulario {
+  background-color: #9f113a;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 12px;
+  border-color: #9f113a;
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+
+.boton-formulario:hover {
+  background-color: #ee82ac;
+  border-color: #ee82ac;
+}
+
+/* texto formulario reservas */
+
+.piedepaginares {
+    background-color: #9f113a;
+    color: #ffe6f0;
+    padding: 40px 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer-containerres {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-leftres,
+.footer-rightres {
+    flex: 1 1 45%;
+    min-width: 280px;
+    margin-left: 280px;
+}
+
+.footer-leftres h3,
+.footer-rightres h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    
+    
+}
+
+.footer-leftres p,
+.footer-rightres p {
+    font-size: 16px;
+    color: #ffe6f0;
+    margin-bottom: 10px;
+    margin-right: 280px;
+    
+}
+
+.links-footerres {
+    font-size: 14px;
+    color: aqua;
+    margin-right: 310px;
+}
+
+.links-footerres a {
+    color: #a7ddf2;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.links-footerres a:hover {
+    text-decoration: underline;
+}
+
+/* links a redes sociales */
+.iconos-bs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.iconos-bs a {
+    font-size: 2rem;
+    color: #ffe6f0;
+    background-color: #ee82ac;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.2s ease;
+}
+
+.iconos-bs a:hover {
+    transform: scale(1.1);
+}
+
+/* hinata maid */
+
+.contenedorbannerhinata {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+    color: white;
+}
+
+.contenedorbannerhinata h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbannerhinata p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+
+.maid-ficha {
+  background-color: #ffe6f0;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Quicksand', sans-serif;
+  color: #9f113a;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.4);
+}
+
+.maid-nombre {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.maid-frase {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.maid-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.maid-img img {
+  max-width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(159, 17, 58, 0.2);
+}
+
+.maid-detalles {
+  flex: 1;
+  min-width: 250px;
+  font-size: 16px;
+}
+
+.btn-reservar {
+  background-color: #9f113a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reservar:hover {
+  background-color: #c81f57;
+}
+
+
+/* card maids */
+
+.card-img-top {
+  height: 650px;
+  object-fit: contain;
+  border-radius: 20px 20px 0 0;
+}
+
+.seccion-maids {
+  background: transparent !important;
+  padding: 3rem 0;
+}
+
+
+/* sakura */
+
+.contenedorbannersakura {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+    color: white;
+}
+
+.contenedorbannersakura h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbannersakura p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+
+/* tsunade */
+
+
+.contenedorbannertsunade {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+    color: white;
+
+}
+
+.contenedorbannertsunade h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbannertsunade p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* fondos */
+
+.fondohina {
+  background-image: url(/contenedorimages/bannerhinata.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb;
+}
+
+
+.fondosaku {
+  background-image: url(/contenedorimages/bannersakura.png);
+  background-size: cover;
+  max-width: 100% auto;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb; 
+}
+
+.fondolady {
+  background-image: url(/contenedorimages/bannerlady.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb; 
+}
+
+
+/** nuevo css para pagina de hinata **/
+
+.pagina-hinata {
+  background-color: #1e1b2e;
+  color: #ffffff;
+}
+
+.pagina-hinata .navbar {
+  background-color: #2a2140 !important;
+}
+
+.pagina-hinata .navbar-brand h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #c79eff;
+  font-size: 2rem;
+}
+
+.pagina-hinata nav ul {
+    background-color: #2a2140 !important;
+}
+
+.pagina-hinata .nav-link {
+  color: #ffd6f9 !important;
+}
+
+.pagina-hinata .nav-link:hover,
+.pagina-hinata .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #3d2a56;
+}
+
+
+/* Cards maids */
+.pagina-hinata .card {
+  background-color: #2a2a3c;
+  color: #fcefff;
+  border: none;
+}
+
+.pagina-hinata .card-title {
+  color: #ffe6fb;
+}
+
+.pagina-hinata .card-text em {
+  color: #ddb3ff;
+}
+
+.pagina-hinata strong {
+  color: #ffc8ec;
+}
+
+/* Banner de bienvenida Hinata */
+
+.pagina-hinata .contenedorbannerhinata {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+}
+
+.pagina-hinata .contenedorbannerhinata h2 {
+  color: #000000;
+  font-weight: bold;
+}
+
+.pagina-hinata .contenedorbannerhinata p {
+  color: #000000;
+}
+
+.pagina-hinata .piedepagina {
+  background-color: #2a2140;
+  color: #ffd6f9;
+  padding: 2rem;
+}
+
+.pagina-hinata .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-hinata .piedepagina a {
+  color: #c79eff;
+  text-decoration: none;
+}
+
+.pagina-hinata .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-hinata .iconos-bs a {
+  color: #ffc8ec;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/* nuevo css para sakura */
+
+.pagina-sakura {
+  background-color: #2c1a1e;
+  color: #fff3f6;
+}
+
+.pagina-sakura .navbar {
+  background-color: #3e2026 !important;
+}
+
+.pagina-sakura .navbar-brand h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #ffb6c1;
+  font-size: 2rem;
+}
+
+.pagina-sakura nav ul {
+    background-color: #3e2026 !important;
+}
+
+.pagina-sakura .nav-link {
+  color: #ffdbe5 !important;
+}
+
+.pagina-sakura .nav-link:hover,
+.pagina-sakura .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #5a2c34;
+}
+
+
+/* Cards maids */
+.pagina-sakura .card {
+  background-color: #43282c;
+  color: #ffeef3;
+  border: none;
+}
+
+.pagina-sakura .card-title {
+  color: #ffc3d6;
+}
+
+.pagina-sakura .card-text em {
+  color: #ffadc2;
+}
+
+.pagina-sakura strong {
+  color: #ffb6c1;
+}
+
+/* Banner de bienvenida Sakura */
+
+.pagina-sakura .contenedorbannersakura {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+}
+
+.pagina-sakura .contenedorbannersakura h2 {
+  color: #490f1b ;
+  font-weight: bold;
+}
+
+.pagina-sakura .contenedorbannersakura p {
+  color: #581e29;
+}
+
+.pagina-sakura .piedepagina {
+  background-color: #3e2026;
+  color: #ffdbe5;
+  padding: 2rem;
+}
+
+.pagina-sakura .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-sakura .piedepagina a {
+  color: #ffa6bc;
+  text-decoration: none;
+}
+
+.pagina-sakura .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-sakura .iconos-bs a {
+  color: #ffb6c1;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+/* css para tsunade **/
+
+.pagina-tsunade {
+  background-color: #1f2a23;
+  color: #f8fff4;
+}
+
+.pagina-tsunade .navbar {
+  background-color: #2d3c33 !important;
+}
+
+.pagina-tsunade .navbar-brand h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #a9ffcb;
+  font-size: 2rem;
+}
+
+.pagina-tsunade nav ul {
+    background-color: #2d3c33 !important;
+}
+
+.pagina-tsunade .nav-link {
+  color: #caffdd !important;
+}
+
+.pagina-tsunade .nav-link:hover,
+.pagina-tsunade .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #3a4d42;
+}
+
+
+/* Cards maids */
+.pagina-tsunade .card {
+  background-color: #2b3a30;
+  color: #f0fff6;
+  border: none;
+}
+
+.pagina-tsunade .card-title {
+  color: #adffd1;
+}
+
+.pagina-tsunade .card-text em {
+  color: #b9ffe0;
+}
+
+.pagina-tsunade strong {
+  color: #c4ffdf;
+}
+
+/* Banner de bienvenida Tsunade */
+
+.pagina-tsunade .contenedorbannertsunade {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 900px;
+}
+
+.pagina-tsunade .contenedorbannertsunade h2 {
+  color: #3a4d42;
+  font-weight: bold;
+}
+
+.pagina-tsunade .contenedorbannertsunade p {
+  color: #3a4d42;
+}
+
+.pagina-tsunade .piedepagina {
+  background-color: #2d3c33;
+  color: #caffdd;
+  padding: 2rem;
+}
+
+.pagina-tsunade .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-tsunade .piedepagina a {
+  color: #a9ffcb;
+  text-decoration: none;
+}
+
+.pagina-tsunade .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-tsunade .iconos-bs a {
+  color: #b9ffe0;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
