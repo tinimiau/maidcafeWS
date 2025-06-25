@@ -1,0 +1,63 @@
+header {
+    background-color: $color-principal;
+}
+
+header h1 {
+    color: $color-claro;
+    font-family: $font-cursiva, cursive;
+    font-size: 70px !important;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+header nav ul {
+    background-color: $color-principal !important;
+}
+
+header nav ul li a {
+    color: $blanco !important;
+    font-size: 25px !important;
+    font-family: $font-principal;
+}
+
+/** hover de los navlinks **/
+
+.nav-link {
+    color: $blanco;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: $color-hover;
+    text-shadow: 0 0 8px $color-hover;
+}
+
+.nav-link:not(.dropdown-toggle)::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $color-hover;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:not(.dropdown-toggle):hover::after {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #fcb8d2;
+    color: #915e6c;
+    transition: 0.7s ease;
+}
