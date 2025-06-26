@@ -50,14 +50,3 @@ header nav ul li a {
 .nav-link:not(.dropdown-toggle):hover::after {
     width: 100%;
 }
-
-.dropdown-menu a {
-    border-radius: 8px;
-    padding: 8px 12px;
-}
-
-.dropdown-menu a:hover {
-    background-color: #fcb8d2;
-    color: #915e6c;
-    transition: 0.7s ease;
-}

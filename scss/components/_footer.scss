@@ -50,23 +50,3 @@
     text-decoration: underline;
 }
 
-/* links a redes sociales */
-.iconos-bs {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.iconos-bs a {
-    font-size: 2rem;
-    color: $color-claro;
-    background-color: $color-secundario;
-    border-radius: 12px;
-    padding: 10px;
-    transition: transform 0.2s ease;
-}
-
-.iconos-bs a:hover {
-    transform: scale(1.1);
-}

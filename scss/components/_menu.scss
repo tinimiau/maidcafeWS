@@ -1,0 +1,94 @@
+.contenedorbannermenu {
+    padding-top: 300px;
+    text-align: center;
+    font-family: $font-principal;
+    height: 900px;
+    color: $blanco;
+    background-image: url(/contenedorimages/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contenedorbannermenu h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contenedorbannermenu p {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* tarjetas del menú */
+
+.menu-kawaii {
+    background-color: $color-claro;
+}
+
+.titulo-menu {
+    font-family: $font-cursiva;
+    font-size: 36px;
+    color: $color-principal;
+}
+
+.card-kawaii {
+    border-radius: 15px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+    transition: all 0.35s ease-in-out;
+}
+
+.card-kawaii:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 0 20px rgba(252, 184, 210, 0.6);
+    border-color: $color-hover;
+    background-color: #fff0f5;
+}
+
+
+.card-kawaii .card-title {
+    font-size: 20px;
+    color: $color-principal;
+    font-weight: bold;
+}
+
+.card-kawaii .card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.card-kawaii .precio {
+    font-size: 18px;
+    color: #d63384;
+    margin-top: 10px;
+}
+
+/* imagenes tarjeta menu */
+
+.card-img-top {
+    height: 380px;
+}
+
+/* texto */
+
+.titulo-menu {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.9rem !important;
+    font-family: $font-principal;
+}
+
+.card-text {
+    font-size: 1.5rem !important;
+    font-family: $font-principal;
+}
