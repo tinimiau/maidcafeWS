@@ -4,15 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <link href="/css/estilos.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+
+    <!-- AOS.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--  estilos -->
+    <link href="/css/estilos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,20 +67,20 @@
     </header>
 
 
-    <section class="contenedorbannermenu">
-        <h2>Nuestra carta mágica ~☆</h2>
-        <p>Hecha con amor por nuestras maids para alegrar tu día. </p>
+    <section class="contenedorbannermenu" class="banner animate__animated animate__fadeIn">
+        <h2 class="animate__animated animate__fadeInDown animate__delay-0,5s">Nuestra carta mágica ~☆</h2>
+        <p class="animate__animated animate__fadeInDown animate__delay-1s">Hecha con amor por nuestras maids para alegrar tu día~ 🧁💓🎵</p>
     </section>
 
     <!-- tarjetas de bs  -->
 
     <section class="menu-kawaii py-5">
         <div class="container text-center">
-            <h2 class="titulo-menu mb-5">~ Dulces de la Casa ~</h2>
+            <h2 class="titulo-menu mb-5" data-aos="fade-up" data-aos-duration="1200">~ Dulces de la Casa ~</h2>
 
             <div class="row justify-content-center">
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                     <div class="card card-kawaii h-100">
                         <img src="/contenedorimages/pastelito.png" class="card-img-top img-muffin" alt="Muffin Sakura">
                         <div class="card-body">
@@ -78,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
                     <div class="card card-kawaii h-100">
                         <img src="/contenedorimages/pastelneko.png" class="card-img-top" alt="Pastelito Neko">
                         <div class="card-body">
@@ -89,10 +102,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
                     <div class="card card-kawaii h-100">
-                        <img src="/contenedorimages/rollito.png" class="card-img-top"
-                            alt="Rollito Maid">
+                        <img src="/contenedorimages/rollito.png" class="card-img-top" alt="Rollito Maid">
                         <div class="card-body">
                             <h5 class="card-title">🍓 Rollito Maid</h5>
                             <p class="card-text">Pionono de frutilla con crema batida y moñito de azúcar 🎀</p>
@@ -106,47 +118,51 @@
     </section>
 
     <section class="menu-kawaii py-5">
-  <div class="container text-center">
-    <h2 class="titulo-menu mb-5">~ Cosas Saladas de la Casa ~</h2>
+        <div class="container text-center">
+            <h2 class="titulo-menu mb-5" data-aos="fade-up" data-aos-duration="1200" >~ Cosas Saladas de la Casa ~</h2>
 
-    <div class="row justify-content-center">
+            <div class="row justify-content-center">
 
-      <div class="col-md-4 mb-4">
-        <div class="card card-kawaii h-100">
-          <img src="/contenedorimages/sangucheestrella.png" class="card-img-top" alt="Sandwich de Estrellas">
-          <div class="card-body">
-            <h5 class="card-title">⭐ Sandwich de Estrellas</h5>
-            <p class="card-text">Mini sandwich de pan lactal con jamón y queso, cortado en forma de estrellas doradas 🌟</p>
-            <p class="precio">$1100</p>
-          </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                    <div class="card card-kawaii h-100">
+                        <img src="/contenedorimages/sangucheestrella.png" class="card-img-top"
+                            alt="Sandwich de Estrellas">
+                        <div class="card-body">
+                            <h5 class="card-title">⭐ Sandwich de Estrellas</h5>
+                            <p class="card-text">Mini sandwich de pan lactal con jamón y queso, cortado en forma de
+                                estrellas doradas 🌟</p>
+                            <p class="precio">$1100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                    <div class="card card-kawaii h-100">
+                        <img src="/contenedorimages/onigiri.png" class="card-img-top" alt="Onigiri Maid">
+                        <div class="card-body">
+                            <h5 class="card-title">🍙 Onigiri Maid</h5>
+                            <p class="card-text">Bola de arroz japonesa con un super rico relleno sorpresa, servida con
+                                carita feliz ✨</p>
+                            <p class="precio">$1350</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
+                    <div class="card card-kawaii h-100">
+                        <img src="/contenedorimages/pizza.png" class="card-img-top" alt="Quiche Lunita">
+                        <div class="card-body">
+                            <h5 class="card-title">🌙 Pizza Lunita</h5>
+                            <p class="card-text">Mini pizeta de queso y cebollita caramelizada en forma de luna
+                                creciente 🌛</p>
+                            <p class="precio">$1450</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card card-kawaii h-100">
-          <img src="/contenedorimages/onigiri.png" class="card-img-top" alt="Onigiri Maid">
-          <div class="card-body">
-            <h5 class="card-title">🍙 Onigiri Maid</h5>
-            <p class="card-text">Bola de arroz japonesa con un super rico relleno sorpresa, servida con carita feliz ✨</p>
-            <p class="precio">$1350</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card card-kawaii h-100">
-          <img src="/contenedorimages/pizza.png" class="card-img-top" alt="Quiche Lunita">
-          <div class="card-body">
-            <h5 class="card-title">🌙 Pizza Lunita</h5>
-            <p class="card-text">Mini pizeta de queso y cebollita caramelizada en forma de luna creciente 🌛</p>
-            <p class="precio">$1450</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <footer class="piedepagina">
@@ -182,9 +198,17 @@
 
 
 
+    <!-- BS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

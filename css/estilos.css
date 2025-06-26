@@ -21,7 +21,7 @@
 
 .card-img-top {
   height: 700px !important;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
   display: block;
 }
@@ -286,28 +286,6 @@ header nav ul li a {
   text-align: center;
 }
 
-.contenedorbannerhinata {
-  padding-top: 300px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  height: 900px;
-  color: white;
-}
-
-.contenedorbannerhinata h2 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 80px;
-}
-
-.contenedorbannerhinata p {
-  font-size: 35px;
-  padding-bottom: 15px;
-  text-align: left;
-  padding-left: 80px;
-}
-
 .contenedorbannermenu {
   padding-top: 300px;
   text-align: center;
@@ -379,7 +357,7 @@ header nav ul li a {
 
 /* imagenes tarjeta menu */
 .card-img-top {
-  height: 380px;
+  height: 380px !important;
 }
 
 /* texto */
@@ -422,7 +400,8 @@ header nav ul li a {
   gap: 8px;
 }
 
-.formulario-contacto input, .formulario-contacto textarea {
+.formulario-contacto input,
+.formulario-contacto textarea {
   width: 100%;
   max-width: 400px;
   padding: 10px 15px;
@@ -446,6 +425,7 @@ header nav ul li a {
 .boton-formulario:hover {
   background-color: #ee82ac;
   border-color: #ee82ac;
+  animation: rubberBand 1s;
 }
 
 /* texto formulario reservas */

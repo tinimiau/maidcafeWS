@@ -24,7 +24,8 @@
 }
 
 
-.formulario-contacto input, .formulario-contacto textarea {
+.formulario-contacto input,
+.formulario-contacto textarea {
   width: 100%;
   max-width: 400px;
   padding: 10px 15px;
@@ -48,65 +49,66 @@
 .boton-formulario:hover {
   background-color: $color-secundario;
   border-color: $color-secundario;
+  animation: rubberBand 1s;
 }
 
 /* texto formulario reservas */
 
 .piedepaginares {
-    background-color: $color-principal;
-    color: $color-claro;
-    padding: 40px 20px;
-    font-family: $font-principal;
+  background-color: $color-principal;
+  color: $color-claro;
+  padding: 40px 20px;
+  font-family: $font-principal;
 }
 
 .footer-containerres {
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer-leftres,
 .footer-rightres {
-    flex: 1 1 45%;
-    min-width: 280px;
-    margin-left: 280px;
+  flex: 1 1 45%;
+  min-width: 280px;
+  margin-left: 280px;
 }
 
 .footer-leftres h3,
 .footer-rightres h3 {
-    font-family: $font-cursiva;
-    font-weight: bold;
-    font-size: 36px;
-    margin-bottom: 10px;
-    margin-left: 80px;
-    
-    
+  font-family: $font-cursiva;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+
+
 }
 
 .footer-leftres p,
 .footer-rightres p {
-    font-size: 16px;
-    color: $color-claro;
-    margin-bottom: 10px;
-    margin-right: 280px;
-    
+  font-size: 16px;
+  color: $color-claro;
+  margin-bottom: 10px;
+  margin-right: 280px;
+
 }
 
 .links-footerres {
-    font-size: 14px;
-    color: aqua;
-    margin-right: 310px;
+  font-size: 14px;
+  color: aqua;
+  margin-right: 310px;
 }
 
 .links-footerres a {
-    color: #a7ddf2;
-    text-decoration: none;
-    margin: 0 5px;
+  color: #a7ddf2;
+  text-decoration: none;
+  margin: 0 5px;
 }
 
 .links-footerres a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
