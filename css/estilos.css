@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* links a redes sociales */
 .iconos-bs {
   display: flex;
   justify-content: center;
@@ -18,6 +17,47 @@
 
 .iconos-bs a:hover {
   transform: scale(1.1);
+}
+
+.card-img-top {
+  height: 700px !important;
+  object-fit: contain;
+  border-radius: 20px 20px 0 0;
+  display: block;
+}
+
+.seccion-maids {
+  background: transparent !important;
+  padding: 3rem 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.fondohina {
+  background-image: url(/contenedorimages/bannerhinata.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb;
+}
+
+.fondosaku {
+  background-image: url(/contenedorimages/bannersakura.png);
+  background-size: cover;
+  max-width: 100% auto;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb;
+}
+
+.fondolady {
+  background-image: url(/contenedorimages/bannerlady.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb;
 }
 
 header {
@@ -246,6 +286,28 @@ header nav ul li a {
   text-align: center;
 }
 
+.contenedorbannerhinata {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  height: 900px;
+  color: white;
+}
+
+.contenedorbannerhinata h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.contenedorbannerhinata p {
+  font-size: 35px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+}
+
 .contenedorbannermenu {
   padding-top: 300px;
   text-align: center;
@@ -441,6 +503,300 @@ header nav ul li a {
 
 .links-footerres a:hover {
   text-decoration: underline;
+}
+
+.contenedorbannerhinata {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  height: 900px;
+  color: #ffffff;
+}
+
+.contenedorbannerhinata h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+  color: #1e1b2e;
+}
+
+.contenedorbannerhinata p {
+  font-size: 35px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  color: #000000;
+  font-weight: bold;
+  color: #3d2a56;
+}
+
+.pagina-hinata {
+  background-color: #1e1b2e;
+  color: #ffffff;
+}
+
+.pagina-hinata .navbar {
+  background-color: #2a2140 !important;
+}
+
+.pagina-hinata .navbar-brand h1 {
+  font-family: "Great Vibes", cursive;
+  color: #c79eff;
+  font-size: 2rem;
+}
+
+.pagina-hinata nav ul {
+  background-color: #2a2140 !important;
+}
+
+.pagina-hinata .nav-link {
+  color: #ffd6f9 !important;
+}
+
+.pagina-hinata .nav-link:hover,
+.pagina-hinata .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #3d2a56;
+}
+
+/* Cards pagina HINATA */
+.pagina-hinata .card {
+  background-color: #2a2a3c;
+  color: #fcefff;
+  border: none;
+}
+
+.pagina-hinata .card-title {
+  color: #ffe6fb;
+}
+
+.pagina-hinata .card-text em {
+  color: #ddb3ff;
+}
+
+.pagina-hinata strong {
+  color: #ffc8ec;
+}
+
+.pagina-hinata .piedepagina {
+  background-color: #2a2140;
+  color: #ffd6f9;
+  padding: 2rem;
+}
+
+.pagina-hinata .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-hinata .piedepagina a {
+  color: #c79eff;
+  text-decoration: none;
+}
+
+.pagina-hinata .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-hinata .iconos-bs a {
+  color: #ffc8ec;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.contenedorbannersakura {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  height: 900px;
+  color: #ffffff;
+}
+
+.contenedorbannersakura h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+  color: #2c1a1e;
+}
+
+.contenedorbannersakura p {
+  font-size: 35px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  color: #5a2c34;
+}
+
+.pagina-sakura {
+  background-color: #2c1a1e;
+  color: #fff3f6;
+}
+
+.pagina-sakura .navbar {
+  background-color: #3e2026 !important;
+}
+
+.pagina-sakura .navbar-brand h1 {
+  font-family: "Great Vibes", cursive;
+  color: #ffb6c1;
+  font-size: 2rem;
+}
+
+.pagina-sakura nav ul {
+  background-color: #3e2026 !important;
+}
+
+.pagina-sakura .nav-link {
+  color: #ffdbe5 !important;
+}
+
+.pagina-sakura .nav-link:hover,
+.pagina-sakura .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #5a2c34;
+}
+
+.pagina-sakura .card {
+  background-color: #43282c;
+  color: #ffeef3;
+  border: none;
+}
+
+.pagina-sakura .card-title {
+  color: #ffc3d6;
+}
+
+.pagina-sakura .card-text em {
+  color: #ffadc2;
+}
+
+.pagina-sakura strong {
+  color: #ffb6c1;
+}
+
+.pagina-sakura .piedepagina {
+  background-color: #3e2026;
+  color: #ffdbe5;
+  padding: 2rem;
+}
+
+.pagina-sakura .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-sakura .piedepagina a {
+  color: #ffa6bc;
+  text-decoration: none;
+}
+
+.pagina-sakura .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-sakura .iconos-bs a {
+  color: #ffb6c1;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.contenedorbannertsunade {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  height: 900px;
+  color: #ffffff;
+}
+
+.contenedorbannertsunade h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+  color: #1f2a23;
+}
+
+.contenedorbannertsunade p {
+  font-size: 35px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  color: #2b3a30;
+}
+
+.pagina-tsunade {
+  background-color: #1f2a23;
+  color: #f8fff4;
+}
+
+.pagina-tsunade .navbar {
+  background-color: #2d3c33 !important;
+}
+
+.pagina-tsunade .navbar-brand h1 {
+  font-family: "Great Vibes", cursive;
+  color: #a9ffcb;
+  font-size: 2rem;
+}
+
+.pagina-tsunade nav ul {
+  background-color: #2d3c33 !important;
+}
+
+.pagina-tsunade .nav-link {
+  color: #caffdd !important;
+}
+
+.pagina-tsunade .nav-link:hover,
+.pagina-tsunade .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #3a4d42;
+}
+
+.pagina-tsunade .card {
+  background-color: #2b3a30;
+  color: #f0fff6;
+  border: none;
+}
+
+.pagina-tsunade .card-title {
+  color: #adffd1;
+}
+
+.pagina-tsunade .card-text em {
+  color: #b9ffe0;
+}
+
+.pagina-tsunade strong {
+  color: #c4ffdf;
+}
+
+.pagina-tsunade .piedepagina {
+  background-color: #2d3c33;
+  color: #caffdd;
+  padding: 2rem;
+}
+
+.pagina-tsunade .piedepagina h3 {
+  color: #ffffff;
+}
+
+.pagina-tsunade .piedepagina a {
+  color: #a9ffcb;
+  text-decoration: none;
+}
+
+.pagina-tsunade .piedepagina a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.pagina-tsunade .iconos-bs a {
+  color: #b9ffe0;
+  margin-right: 1rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

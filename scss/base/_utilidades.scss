@@ -1,5 +1,5 @@
 
-/* links a redes sociales */
+// links a redes sociales 
 .iconos-bs {
     display: flex;
     justify-content: center;
@@ -18,4 +18,51 @@
 
 .iconos-bs a:hover {
     transform: scale(1.1);
+}
+
+
+// card maids 
+
+.card-img-top {
+  height: 700px !important;
+  object-fit: contain;
+  border-radius: 20px 20px 0 0;
+  display: block;
+}
+
+.seccion-maids {
+  background: transparent !important;
+  padding: 3rem 0;
+  font-family: $font-principal;
+}
+
+// fondos
+
+.fondohina {
+  background-image: url(/contenedorimages/bannerhinata.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb;
+}
+
+
+.fondosaku {
+  background-image: url(/contenedorimages/bannersakura.png);
+  background-size: cover;
+  max-width: 100% auto;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb; 
+}
+
+.fondolady {
+  background-image: url(/contenedorimages/bannerlady.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffc0cb; 
 }
