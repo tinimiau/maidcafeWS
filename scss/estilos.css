@@ -22,6 +22,17 @@
   font-weight: bold;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .iconos-bs {
   display: flex;
   justify-content: center;
@@ -186,6 +197,10 @@ header nav ul li a {
 
 .links-footer a:hover {
   text-decoration: underline;
+}
+
+.fondoliso {
+  background-color: #9f113a;
 }
 
 .contenedorbanner {
@@ -446,6 +461,7 @@ header nav ul li a {
   color: #ffe6f0;
   padding: 40px 20px;
   font-family: "Quicksand", sans-serif;
+  height: 100%;
 }
 
 .footer-containerres {
