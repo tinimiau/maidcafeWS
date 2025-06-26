@@ -1,30 +1,17 @@
 // baner hinata
 
 .contenedorbannerhinata {
-    padding-top: 300px;
-    text-align: center;
-    font-family: $font-principal;
-    height: 900px;
-    color: $blanco;
+  @extend %estilo-banner-contenedor;
 }
 
 .contenedorbannerhinata h2 {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 80px;
-    color:#1e1b2e;
-
+  @extend %estilo-banner-h2;
+  color: #1e1b2e;
 }
 
 .contenedorbannerhinata p {
-    font-size: 35px;
-    padding-bottom: 15px;
-    text-align: left;
-    padding-left: 80px;
-    color: $negro;
-    font-weight: bold;
-    color: #3d2a56;
+  @extend %estilo-banner-p;
+  @include texto-banner(#3d2a56);;
 }
 
 //navbar hinata
@@ -45,7 +32,7 @@
 }
 
 .pagina-hinata nav ul {
-    background-color: #2a2140 !important;
+  background-color: #2a2140 !important;
 }
 
 .pagina-hinata .nav-link {
@@ -77,7 +64,7 @@
   color: #ffc8ec;
 }
 
-//footer hinata 
+//footer hinata
 
 .pagina-hinata .piedepagina {
   background-color: #2a2140;
@@ -108,27 +95,17 @@
 //banner sakura
 
 .contenedorbannersakura {
-    padding-top: 300px;
-    text-align: center;
-    font-family: $font-principal;
-    height: 900px;
-    color: $blanco;
+  @extend %estilo-banner-contenedor;
 }
 
 .contenedorbannersakura h2 {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 80px;
-    color: #2c1a1e;
+  @extend %estilo-banner-h2;
+  color: #2c1a1e;
 }
 
 .contenedorbannersakura p {
-    font-size: 35px;
-    padding-bottom: 15px;
-    text-align: left;
-    padding-left: 80px;
-    color: #5a2c34;
+  @extend %estilo-banner-p;
+  @include texto-banner(#5a2c34);
 }
 
 //navbar sakura
@@ -149,7 +126,7 @@
 }
 
 .pagina-sakura nav ul {
-    background-color: #3e2026 !important;
+  background-color: #3e2026 !important;
 }
 
 .pagina-sakura .nav-link {
@@ -161,7 +138,6 @@
   color: $blanco !important;
   background-color: #5a2c34;
 }
-
 
 // Cards maids sakura
 
@@ -184,7 +160,6 @@
 }
 
 //pie de pagina sakura
-
 
 .pagina-sakura .piedepagina {
   background-color: #3e2026;
@@ -212,32 +187,20 @@
   font-size: 1.5rem;
 }
 
-
 //pagina tsunade
 
 .contenedorbannertsunade {
-    padding-top: 300px;
-    text-align: center;
-    font-family: $font-principal;
-    height: 900px;
-    color: $blanco;
-
+  @extend %estilo-banner-contenedor;
 }
 
 .contenedorbannertsunade h2 {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 80px;
-    color: #1f2a23;
+  @extend %estilo-banner-h2;
+  color: #1f2a23;
 }
 
 .contenedorbannertsunade p {
-    font-size: 35px;
-    padding-bottom: 15px;
-    text-align: left;
-    padding-left: 80px;
-    color: #2b3a30;
+  @extend %estilo-banner-p;
+  color: #2b3a30;
 }
 
 // navbar tsunade
@@ -258,7 +221,7 @@
 }
 
 .pagina-tsunade nav ul {
-    background-color: #2d3c33 !important;
+  background-color: #2d3c33 !important;
 }
 
 .pagina-tsunade .nav-link {
@@ -270,7 +233,6 @@
   color: $blanco !important;
   background-color: #3a4d42;
 }
-
 
 // cards de tsunade
 .pagina-tsunade .card {
@@ -292,7 +254,6 @@
 }
 
 //pie de pagina tsunade
-
 
 .pagina-tsunade .piedepagina {
   background-color: #2d3c33;

@@ -1,4 +1,27 @@
 @charset "UTF-8";
+.contenedorbannertsunade, .contenedorbannersakura, .contenedorbannerhinata {
+  padding-top: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  height: 900px;
+  color: #ffffff;
+}
+
+.contenedorbannertsunade h2, .contenedorbannersakura h2, .contenedorbannerhinata h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.contenedorbannertsunade p, .contenedorbannersakura p, .contenedorbannerhinata p {
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  font-weight: bold;
+}
+
 .iconos-bs {
   display: flex;
   justify-content: center;
@@ -24,7 +47,7 @@
   object-fit: contain;
   border-radius: 20px 20px 0 0;
   display: block;
-  transition: all 0.35s ease-in-out;
+  transition: all 1s ease;
 }
 
 .card-img-top:hover {
@@ -38,31 +61,27 @@
 }
 
 .fondohina {
-  background-image: url(/contenedorimages/bannerhinata.png);
+  background-image: url("/contenedorimages/bannerhinata.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #ffc0cb;
 }
 
 .fondosaku {
-  background-image: url(/contenedorimages/bannersakura.png);
+  background-image: url("/contenedorimages/bannersakura.png");
   background-size: cover;
-  max-width: 100% auto;
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #ffc0cb;
 }
 
 .fondolady {
-  background-image: url(/contenedorimages/bannerlady.png);
+  background-image: url("/contenedorimages/bannerlady.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #ffc0cb;
 }
 
 header {
@@ -321,7 +340,7 @@ header nav ul li a {
   border-radius: 15px;
   border: 2px solid transparent;
   box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
-  transition: all 0.35s ease-in-out;
+  transition: all 1s ease;
 }
 
 .card-kawaii:hover {
@@ -478,29 +497,11 @@ header nav ul li a {
   text-decoration: underline;
 }
 
-.contenedorbannerhinata {
-  padding-top: 300px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  height: 900px;
-  color: #ffffff;
-}
-
 .contenedorbannerhinata h2 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 80px;
   color: #1e1b2e;
 }
 
 .contenedorbannerhinata p {
-  font-size: 35px;
-  padding-bottom: 15px;
-  text-align: left;
-  padding-left: 80px;
-  color: #000000;
-  font-weight: bold;
   color: #3d2a56;
 }
 
@@ -578,27 +579,11 @@ header nav ul li a {
   font-size: 1.5rem;
 }
 
-.contenedorbannersakura {
-  padding-top: 300px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  height: 900px;
-  color: #ffffff;
-}
-
 .contenedorbannersakura h2 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 80px;
   color: #2c1a1e;
 }
 
 .contenedorbannersakura p {
-  font-size: 35px;
-  padding-bottom: 15px;
-  text-align: left;
-  padding-left: 80px;
   color: #5a2c34;
 }
 
@@ -675,27 +660,11 @@ header nav ul li a {
   font-size: 1.5rem;
 }
 
-.contenedorbannertsunade {
-  padding-top: 300px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  height: 900px;
-  color: #ffffff;
-}
-
 .contenedorbannertsunade h2 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 80px;
   color: #1f2a23;
 }
 
 .contenedorbannertsunade p {
-  font-size: 35px;
-  padding-bottom: 15px;
-  text-align: left;
-  padding-left: 80px;
   color: #2b3a30;
 }
 

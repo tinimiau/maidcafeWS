@@ -16,5 +16,52 @@ $color-hover: #fcb8d2;
 
 $font-principal: 'Quicksand', sans-serif;
 $font-cursiva: 'Great Vibes', cursive;
+$transition-general: all 1s ease;
+
+// extend para maids 
+
+%estilo-banner-contenedor {
+  padding-top: 300px;
+  text-align: center;
+  font-family: $font-principal;
+  height: 900px;
+  color: $blanco;
+}
+
+%estilo-banner-h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+}
+
+%estilo-banner-p {
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  font-weight: bold;
+}
+
+// mixin para animaciones suaves
+
+@mixin transicion-suave {
+  transition: $transition-general;
+}
+
+// mixin para texto alineado
+
+@mixin texto-banner($color) {
+  color: $color;
+}
 
 
+// mixin para fondos de banners
+
+@mixin fondo-banner($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
