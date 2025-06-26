@@ -107,23 +107,12 @@
     cursor: pointer;
 }
 
-.boton-dos {
-    font-family: $font-principal;
-    background-color: $color-secundario;
-    text-decoration: none;
-    font-weight: bold;
-    color: $blanco;
-    padding: 10px 20px;
-    font-size: 30px;
-    border-radius: 12px;
-    transition: all 0.8s ease;
-    cursor: pointer;
-}
 
 .boton-dos:hover {
     background-color: $blanco;
     color: $color-secundario;
     transform: scale(2s);
+      animation: rubberBand 1s;
 
 
 }

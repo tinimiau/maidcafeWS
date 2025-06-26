@@ -21,9 +21,14 @@
 
 .card-img-top {
   height: 700px !important;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 20px 20px 0 0;
   display: block;
+  transition: all 0.35s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: translateY(-30px) scale(1.25);
 }
 
 .seccion-maids {
@@ -263,23 +268,11 @@ header nav ul li a {
   cursor: pointer;
 }
 
-.boton-dos {
-  font-family: "Quicksand", sans-serif;
-  background-color: #ee82ac;
-  text-decoration: none;
-  font-weight: bold;
-  color: #ffffff;
-  padding: 10px 20px;
-  font-size: 30px;
-  border-radius: 12px;
-  transition: all 0.8s ease;
-  cursor: pointer;
-}
-
 .boton-dos:hover {
   background-color: #ffffff;
   color: #ee82ac;
   transform: scale(2s);
+  animation: rubberBand 1s;
 }
 
 .boton-banner-dos {
