@@ -72,7 +72,7 @@ main {
 }
 
 .fondohina {
-  background-image: url("/contenedorimages/bannerhinata.png");
+  background-image: url("../contenedorimages/bannerhinata.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ main {
 }
 
 .fondosaku {
-  background-image: url("/contenedorimages/bannersakura.png");
+  background-image: url("../contenedorimages/bannersakura.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ main {
 }
 
 .fondolady {
-  background-image: url("/contenedorimages/bannerlady.png");
+  background-image: url("../contenedorimages/bannerlady.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;

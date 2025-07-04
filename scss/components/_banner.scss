@@ -1,12 +1,14 @@
+@use '../base/base' as b;
+
 //banner imagen con texto
 
 .contenedorbanner {
     padding-top: 300px;
     text-align: center;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
     height: 900px;
     color: $blanco;
-    background-image: url(/contenedorimages/banner1.png);
+    background-image: url(../contenedorimages/banner1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,12 +43,12 @@
 
 
 .textobanner {
-    border: 4px solid $color-principal;
+    border: 4px solid b.$color-principal;
     padding: 20px;
     max-width: 600px;
-    color: $color-principal;
+    color: b.$color-principal;
     text-align: center;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
 }
 
 .textobanner h3 {
@@ -56,7 +58,7 @@
 
 .textobanner h1 {
     font-size: 80px;
-    color: $color-secundario;
+    color: b.$color-secundario;
     text-decoration: underline;
 }
 
@@ -67,10 +69,10 @@
 .textohistoria {
     text-align: center;
     color: $blanco;
-    background-color: $color-principal;
+    background-color: b.$color-principal;
     max-width: 600px;
     padding: 20px;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
 }
 
 .textohistoria h3 {
@@ -95,8 +97,8 @@
 /** boton debajo del baner **/
 
 .boton-dos {
-    font-family: $font-principal;
-    background-color: $color-secundario;
+    font-family: b.$font-principal;
+    background-color: b.$color-secundario;
     text-decoration: none;
     font-weight: bold;
     color: $blanco;
@@ -110,8 +112,8 @@
 
 .boton-dos:hover {
     background-color: $blanco;
-    color: $color-secundario;
-    transform: scale(2s);
+    color: b.$color-secundario;
+    transform: scale(2);
     animation: rubberBand 1s;
 
 

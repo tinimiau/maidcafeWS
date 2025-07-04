@@ -1,8 +1,7 @@
-@import 'base/base';
-@import 'base/utilidades';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/banner';
-@import 'components/menu';
-@import 'components/reservas';
-@import 'components/maids';
+@use 'base/base' as b;
+@use 'components/header' as h;
+@use 'components/footer' as f;
+@use 'components/banner' as bn;
+@use 'components/menu' as m;
+@use 'components/reservas' as r;
+@use 'components/maids' as md;

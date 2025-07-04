@@ -1,9 +1,11 @@
+@use '../base/base' as b;
+
 /* formulario reservas */
 
 .formulario-footer {
   border-radius: 15px;
-  color: $color-principal;
-  background-color: $color-claro;
+  color: b.$color-principal;
+  background-color: b.$color-claro;
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
@@ -13,7 +15,7 @@
 .formulario-footer h3,
 .formulario-footer h4 {
   margin: 10px 0;
-  font-family: $font-principal;
+  font-family: b.$font-principal;
 }
 
 .formulario-contacto {
@@ -34,31 +36,31 @@
 }
 
 .boton-formulario {
-  background-color: $color-principal;
+  background-color: b.$color-principal;
   text-decoration: none;
   font-weight: bold;
   color: $blanco;
   padding: 10px 20px;
   font-size: 15px;
   border-radius: 12px;
-  border-color: $color-principal;
+  border-color: b.$color-principal;
   transition: all 0.8s ease;
   cursor: pointer;
 }
 
 .boton-formulario:hover {
-  background-color: $color-secundario;
-  border-color: $color-secundario;
+  background-color: b.$color-secundario;
+  border-color: b.$color-secundario;
   animation: rubberBand 1s;
 }
 
 /* texto formulario reservas */
 
 .piedepaginares {
-  background-color: $color-principal;
-  color: $color-claro;
+  background-color: b.$color-principal;
+  color: b.$color-claro;
   padding: 40px 20px;
-  font-family: $font-principal;
+  font-family: b.$font-principal;
   height: 100%;
 }
 
@@ -80,7 +82,7 @@
 
 .footer-leftres h3,
 .footer-rightres h3 {
-  font-family: $font-cursiva;
+  font-family: b.$font-cursiva;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 10px;
@@ -92,7 +94,7 @@
 .footer-leftres p,
 .footer-rightres p {
   font-size: 16px;
-  color: $color-claro;
+  color: b.$color-claro;
   margin-bottom: 10px;
   margin-right: 280px;
 

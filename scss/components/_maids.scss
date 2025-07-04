@@ -1,3 +1,6 @@
+
+@use '../base' as b;
+
 // baner hinata
 
 .contenedorbannerhinata {
@@ -18,7 +21,7 @@
 
 .pagina-hinata {
   background-color: #1e1b2e;
-  color: $blanco;
+  color: b.$blanco;
 }
 
 .pagina-hinata .navbar {
@@ -26,7 +29,7 @@
 }
 
 .pagina-hinata .navbar-brand h1 {
-  font-family: $font-cursiva;
+  font-family: b.$font-cursiva;
   color: #c79eff;
   font-size: 2rem;
 }
@@ -41,7 +44,7 @@
 
 .pagina-hinata .nav-link:hover,
 .pagina-hinata .dropdown-item:hover {
-  color: $blanco !important;
+  color: b.$blanco !important;
   background-color: #3d2a56;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .pagina-hinata .piedepagina h3 {
-  color: $blanco;
+  color: b.$blanco;
 }
 
 .pagina-hinata .piedepagina a {
@@ -120,7 +123,7 @@
 }
 
 .pagina-sakura .navbar-brand h1 {
-  font-family: $font-cursiva;
+  font-family: b.$font-cursiva;
   color: #ffb6c1;
   font-size: 2rem;
 }
@@ -135,7 +138,7 @@
 
 .pagina-sakura .nav-link:hover,
 .pagina-sakura .dropdown-item:hover {
-  color: $blanco !important;
+  color: b.$blanco !important;
   background-color: #5a2c34;
 }
 
@@ -168,7 +171,7 @@
 }
 
 .pagina-sakura .piedepagina h3 {
-  color: $blanco;
+  color: b.$blanco;
 }
 
 .pagina-sakura .piedepagina a {
@@ -177,7 +180,7 @@
 }
 
 .pagina-sakura .piedepagina a:hover {
-  color: $blanco;
+  color: b.$blanco;
   text-decoration: underline;
 }
 
@@ -215,7 +218,7 @@
 }
 
 .pagina-tsunade .navbar-brand h1 {
-  font-family: $font-cursiva;
+  font-family: b.$font-cursiva;
   color: #a9ffcb;
   font-size: 2rem;
 }
@@ -230,7 +233,7 @@
 
 .pagina-tsunade .nav-link:hover,
 .pagina-tsunade .dropdown-item:hover {
-  color: $blanco !important;
+  color: b.$blanco !important;
   background-color: #3a4d42;
 }
 
@@ -262,7 +265,7 @@
 }
 
 .pagina-tsunade .piedepagina h3 {
-  color: $blanco;
+  color: b.$blanco;
 }
 
 .pagina-tsunade .piedepagina a {
@@ -271,7 +274,7 @@
 }
 
 .pagina-tsunade .piedepagina a:hover {
-  color: $blanco;
+  color: b.$blanco;
   text-decoration: underline;
 }
 
