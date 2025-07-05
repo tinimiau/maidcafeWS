@@ -290,11 +290,16 @@
 
 .fondohina {
   @include fondo-banner("../contenedorimages/bannerhinata.png");
+}
 
-  @media (max-width: 786px){
+
+@media (max-width: 1000px) {
+  .fondohina {
     background-image: url("../contenedorimages/bannercelular.png");
-    background-position: top;
-    background-attachment: scroll;
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
 }
 
@@ -302,6 +307,27 @@
   @include fondo-banner("../contenedorimages/bannersakura.png");
 }
 
+@media (max-width: 1000px) {
+  .fondosaku{
+    background-image: url("../contenedorimages/bannercelular.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+}
+
+
 .fondolady {
   @include fondo-banner("../contenedorimages/bannerlady.png");
+}
+
+@media (max-width: 1000px) {
+  .fondohina {
+    background-image: url("../contenedorimages/bannercelular.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
 }

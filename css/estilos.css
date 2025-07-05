@@ -740,14 +740,16 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media (max-width: 786px) {
+
+@media (max-width: 1000px) {
   .fondohina {
     background-image: url("../contenedorimages/bannercelular.png");
-    background-position: top;
-    background-attachment: scroll;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
-
 .fondosaku {
   background-image: url("../contenedorimages/bannersakura.png");
   background-size: cover;
@@ -756,10 +758,29 @@ header nav ul li a {
   background-attachment: fixed;
 }
 
+@media (max-width: 1000px) {
+  .fondosaku {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
 .fondolady {
   background-image: url("../contenedorimages/bannerlady.png");
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media (max-width: 1000px) {
+  .fondohina {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }/*# sourceMappingURL=estilos.css.map */
