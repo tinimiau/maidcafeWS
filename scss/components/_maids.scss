@@ -290,6 +290,12 @@
 
 .fondohina {
   @include fondo-banner("../contenedorimages/bannerhinata.png");
+
+  @media (max-width: 786px){
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-position: top;
+    background-attachment: scroll;
+  }
 }
 
 .fondosaku {

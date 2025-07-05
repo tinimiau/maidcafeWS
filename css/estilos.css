@@ -740,6 +740,13 @@ header nav ul li a {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+@media (max-width: 786px) {
+  .fondohina {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-position: top;
+    background-attachment: scroll;
+  }
+}
 
 .fondosaku {
   background-image: url("../contenedorimages/bannersakura.png");
