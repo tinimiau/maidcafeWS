@@ -36,7 +36,7 @@ $transition-general: all 1s ease;
 // mixin para fondos de banners
 
 @mixin fondo-banner($url) {
-  background-image: url(../contenedorimages/banner1.png);
+  background-image: url($url);
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;
@@ -97,19 +97,7 @@ main {
   font-family: $font-principal;
 }
 
-// fondos
 
-.fondohina {
-  @include fondo-banner("../contenedorimages/bannerhinata.png");
-}
-
-.fondosaku {
-  @include fondo-banner("../contenedorimages/bannersakura.png");
-}
-
-.fondolady {
-  @include fondo-banner("../contenedorimages/bannerlady.png");
-}
 
 // extend para maids 
 

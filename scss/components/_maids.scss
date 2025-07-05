@@ -6,6 +6,7 @@
 
 .contenedorbannerhinata {
   @extend %estilo-banner-contenedor;
+
 }
 
 .contenedorbannerhinata h2 {
@@ -283,4 +284,18 @@
   color: #b9ffe0;
   margin-right: 1rem;
   font-size: 1.5rem;
+}
+
+// fondos de banners
+
+.fondohina {
+  @include fondo-banner("../contenedorimages/bannerhinata.png");
+}
+
+.fondosaku {
+  @include fondo-banner("../contenedorimages/bannersakura.png");
+}
+
+.fondolady {
+  @include fondo-banner("../contenedorimages/bannerlady.png");
 }
