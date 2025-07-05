@@ -36,7 +36,7 @@ $transition-general: all 1s ease;
 // mixin para fondos de banners
 
 @mixin fondo-banner($url) {
-  background-image: url($url);
+  background-image: url(../contenedorimages/banner1.png);
   background-size: cover;
   background-position: right top;
   background-repeat: no-repeat;

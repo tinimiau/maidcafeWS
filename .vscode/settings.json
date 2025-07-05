@@ -7,7 +7,4 @@
     }
   ],
   "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.excludeList": [
-    "**/scss/base/index.scss"
-  ]
 }
