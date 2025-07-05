@@ -31,7 +31,6 @@ main {
 }
 
 .card-img-top {
-  height: 700px !important;
   object-fit: contain;
   border-radius: 20px 20px 0 0;
   display: block;
@@ -783,4 +782,65 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+}
+.galeria-maid {
+  padding: 2rem 1rem;
+}
+.galeria-maid .galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 0;
+}
+.galeria-maid .galeria .imagen-hover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  transform: scale(0.75);
+  transition: transform 2s ease;
+}
+.galeria-maid .galeria .imagen-hover img {
+  width: 100%;
+  display: block;
+  border-radius: 1rem;
+  transition: opacity 1s ease;
+  background-color: #ee82ac;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.galeria-maid .galeria .imagen-hover .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.galeria-maid .galeria .imagen-hover:hover {
+  transform: scale(1);
+}
+.galeria-maid .galeria .imagen-hover:hover .img-hover {
+  opacity: 1;
+}
+.galeria-maid .galeria .imagen-hover:hover .img-normal {
+  opacity: 0;
+}
+
+.titulo-galeria-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.titulo-galeria {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #c38fff;
+  background-color: #fff0fa;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  letter-spacing: 1px;
+  margin-bottom: 0;
 }/*# sourceMappingURL=estilos.css.map */
