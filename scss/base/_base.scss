@@ -1,3 +1,4 @@
+
 // colores base
 
 $blanco: #ffffff;
@@ -18,30 +19,6 @@ $font-principal: 'Quicksand', sans-serif;
 $font-cursiva: 'Great Vibes', cursive;
 $transition-general: all 1s ease;
 
-// extend para maids 
-
-%estilo-banner-contenedor {
-  padding-top: 300px;
-  text-align: center;
-  font-family: $font-principal;
-  height: 900px;
-  color: $blanco;
-}
-
-%estilo-banner-h2 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 80px;
-}
-
-%estilo-banner-p {
-  font-size: 30px;
-  padding-bottom: 15px;
-  text-align: left;
-  padding-left: 80px;
-  font-weight: bold;
-}
 
 // mixin para animaciones suaves
 
@@ -75,7 +52,7 @@ html, body {
 }
 
 main {
-  flex: 1; // Esto hace que el contenido crezca y empuje el footer abajo
+  flex: 1; 
 }
 
 // links a redes sociales 
@@ -132,4 +109,29 @@ main {
 
 .fondolady {
   @include fondo-banner("../contenedorimages/bannerlady.png");
+}
+
+// extend para maids 
+
+%estilo-banner-contenedor {
+  padding-top: 300px;
+  text-align: center;
+  font-family: $font-principal;
+  height: 900px;
+  color: $blanco;
+}
+
+%estilo-banner-h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 80px;
+}
+
+%estilo-banner-p {
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 80px;
+  font-weight: bold;
 }

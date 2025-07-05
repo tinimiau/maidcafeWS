@@ -1,10 +1,12 @@
+@use '../base/base' as b;
+
 .contenedorbannermenu {
     padding-top: 300px;
     text-align: center;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
     height: 900px;
-    color: $blanco;
-    background-image: url(/contenedorimages/banner2.png);
+    color: b.$blanco;
+    background-image: url(../contenedorimages/banner2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,33 +31,33 @@
 /* tarjetas del menú */
 
 .menu-kawaii {
-    background-color: $color-claro;
+    background-color: b.$color-claro;
 }
 
 .titulo-menu {
-    font-family: $font-cursiva;
+    font-family: b.$font-cursiva;
     font-size: 36px;
-    color: $color-principal;
+    color: b.$color-principal;
 }
 
 .card-kawaii {
     border-radius: 15px;
     border: 2px solid transparent;
     box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
-    @include transicion-suave
+    @include b.transicion-suave
 }
 
 .card-kawaii:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 0 20px rgba(252, 184, 210, 0.6);
-    border-color: $color-hover;
+    border-color: b.$color-hover;
     background-color: #fff0f5;
 }
 
 
 .card-kawaii .card-title {
     font-size: 20px;
-    color: $color-principal;
+    color: b.$color-principal;
     font-weight: bold;
 }
 
@@ -85,10 +87,10 @@
 
 .card-title {
     font-size: 1.9rem !important;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
 }
 
 .card-text {
     font-size: 1.5rem !important;
-    font-family: $font-principal;
+    font-family: b.$font-principal;
 }
