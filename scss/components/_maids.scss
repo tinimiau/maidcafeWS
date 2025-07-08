@@ -1,4 +1,3 @@
-
 @use '../base/base' as *;
 
 
@@ -16,7 +15,8 @@
 
 .contenedorbannerhinata p {
   @extend %estilo-banner-p;
-  @include texto-banner(#3d2a56);;
+  @include texto-banner(#3d2a56);
+  ;
 }
 
 //navbar hinata
@@ -296,10 +296,10 @@
 @media (max-width: 1000px) {
   .fondohina {
     background-image: url("../contenedorimages/bannercelular.png");
-  background-size: cover;
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -308,12 +308,12 @@
 }
 
 @media (max-width: 1000px) {
-  .fondosaku{
+  .fondosaku {
     background-image: url("../contenedorimages/bannercelular.png");
-  background-size: cover;
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -323,17 +323,17 @@
 }
 
 @media (max-width: 1000px) {
-  .fondohina {
+  .fondolady {
     background-image: url("../contenedorimages/bannercelular.png");
-  background-size: cover;
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
- // galeria de fotos
- 
+// galeria de fotos
+
 .galeria-maid {
   padding: 2rem 1rem;
 
@@ -366,7 +366,7 @@
       }
 
       &:hover {
-        transform: scale(1); 
+        transform: scale(1);
       }
 
       &:hover .img-hover {
@@ -376,7 +376,7 @@
       &:hover .img-normal {
         opacity: 0;
 
-        
+
       }
     }
   }
@@ -403,5 +403,157 @@
   border-radius: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   letter-spacing: 1px;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
+
+// vista mobile
+
+@media (max-width: 768px) {
+  .contenedorbannerhinata {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #1e1b2e;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 5px 0;
+      padding: 0 10px;
+      color: #3d2a56;
+      font-weight: bold;
+    }
+  }
+
+  // Galería
+  .galeria-maid {
+    padding: 1.5rem 1rem;
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+
+      .imagen-hover {
+        border-radius: 1rem;
+        overflow: hidden;
+        transform: none;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 1rem;
+        }
+
+        .img-hover,
+        .img-normal {
+          transition: none;
+        }
+
+        &:hover {
+          transform: none;
+        }
+
+      }
+    }
+  }
+
+  // Título galería
+  .titulo-galeria {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+
+  // Cards
+  .card .card-title,
+  .card .card-text,
+  .card p {
+    font-size: 0.9rem !important;
+  }
+
+  .card-img-top {
+    height: 220px !important;
+    object-fit: contain;
+  }
+}
+
+
+// sakura
+
+@media (max-width: 768px) {
+  .contenedorbannersakura {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #1e1b2e;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 5px 0;
+      padding: 0 10px;
+      color: #3d2a56;
+      font-weight: bold;
+    }
+  }
+}
+
+//tsunade
+
+@media (max-width: 768px) {
+  .contenedorbannertsunade {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #1e1b2e;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 5px 0;
+      padding: 0 10px;
+      color: #3d2a56;
+      font-weight: bold;
+    }
+  }
+}
+
+// arreglo de cards en desktop
+

@@ -288,6 +288,82 @@ header nav ul li a {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .contenedorbanner {
+    padding-top: 150px;
+    height: auto;
+  }
+  .contenedorbanner h2 {
+    font-size: 28px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .contenedorbanner p {
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .textobanner,
+  .textohistoria {
+    padding: 15px;
+    max-width: 90%;
+  }
+  .textobanner h1,
+  .textohistoria h1 {
+    font-size: 42px;
+  }
+  .textobanner h2,
+  .textohistoria h2 {
+    font-size: 36px;
+  }
+  .textobanner h3,
+  .textohistoria h3 {
+    font-size: 24px;
+  }
+  .textobanner p,
+  .textohistoria p {
+    font-size: 16px;
+  }
+  .yomaid img {
+    width: 200px;
+    height: 200px;
+  }
+  .boton-dos {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+  .boton-dos:hover {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 768px) {
+  .contenedorbanner {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 400px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedorbanner h2 {
+    color: #9f113a;
+    font-size: 22px;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .contenedorbanner p {
+    color: #9f113a;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+}
 .contenedorbannermenu {
   padding-top: 300px;
   text-align: center;
@@ -378,6 +454,57 @@ header nav ul li a {
   font-family: "Quicksand", sans-serif;
 }
 
+@media (max-width: 768px) {
+  .contenedorbannermenu {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+    height: auto;
+    padding: 80px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedorbannermenu h2 {
+    font-size: 24px;
+    padding: 0 10px;
+    color: #9f113a;
+    font-weight: bold;
+  }
+  .contenedorbannermenu p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0 15px;
+    color: #9f113a;
+    font-weight: bolder;
+  }
+  .titulo-menu {
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+    text-align: center;
+  }
+  .card-kawaii {
+    margin: 15px 10px;
+    padding: 10px;
+  }
+  .card-img-top {
+    height: 220px !important;
+    object-fit: contain;
+  }
+  .card-title {
+    font-size: 1.3rem !important;
+  }
+  .card-text {
+    font-size: 1rem !important;
+  }
+  .precio {
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+}
 /* formulario reservas */
 .formulario-footer {
   border-radius: 15px;
@@ -436,52 +563,60 @@ header nav ul li a {
   color: #ffe6f0;
   padding: 40px 20px;
   font-family: "Quicksand", sans-serif;
-  height: 100%;
 }
 
 .footer-containerres {
   display: flex;
-  justify-content: center;
-  max-width: 1000px;
-  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  text-align: center !important;
+  margin: 0 auto;
+  padding: 0 1rem;
+  gap: 40px;
   flex-wrap: wrap;
-  gap: 30px;
+}
+@media (max-width: 768px) {
+  .footer-containerres {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .footer-leftres,
 .footer-rightres {
   flex: 1 1 45%;
   min-width: 280px;
-  margin-left: 280px;
 }
 
 .footer-leftres h3,
 .footer-rightres h3 {
   font-family: "Great Vibes", cursive;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 2rem;
   margin-bottom: 10px;
-  margin-left: 80px;
 }
 
 .footer-leftres p,
 .footer-rightres p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffe6f0;
   margin-bottom: 10px;
-  margin-right: 280px;
 }
 
 .links-footerres {
-  font-size: 14px;
-  color: aqua;
-  margin-right: 310px;
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
 }
 
 .links-footerres a {
   color: #a7ddf2;
   text-decoration: none;
-  margin: 0 5px;
 }
 
 .links-footerres a:hover {
@@ -775,7 +910,7 @@ header nav ul li a {
 }
 
 @media (max-width: 1000px) {
-  .fondohina {
+  .fondolady {
     background-image: url("../contenedorimages/bannercelular.png");
     background-size: cover;
     background-position: right top;
@@ -843,4 +978,125 @@ header nav ul li a {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   letter-spacing: 1px;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .contenedorbannerhinata {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedorbannerhinata h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e1b2e;
+  }
+  .contenedorbannerhinata p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 0 10px;
+    color: #3d2a56;
+    font-weight: bold;
+  }
+  .galeria-maid {
+    padding: 1.5rem 1rem;
+  }
+  .galeria-maid .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  .galeria-maid .galeria .imagen-hover {
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: none;
+  }
+  .galeria-maid .galeria .imagen-hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  .galeria-maid .galeria .imagen-hover .img-hover,
+  .galeria-maid .galeria .imagen-hover .img-normal {
+    transition: none;
+  }
+  .galeria-maid .galeria .imagen-hover:hover {
+    transform: none;
+  }
+  .titulo-galeria {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+  .card .card-title,
+  .card .card-text,
+  .card p {
+    font-size: 0.9rem !important;
+  }
+  .card-img-top {
+    height: 220px !important;
+    object-fit: contain;
+  }
+}
+@media (max-width: 768px) {
+  .contenedorbannersakura {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedorbannersakura h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e1b2e;
+  }
+  .contenedorbannersakura p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 0 10px;
+    color: #3d2a56;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .contenedorbannertsunade {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 80px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedorbannertsunade h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e1b2e;
+  }
+  .contenedorbannertsunade p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 0 10px;
+    color: #3d2a56;
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=estilos.css.map */

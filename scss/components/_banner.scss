@@ -122,3 +122,92 @@
 .boton-banner-dos {
     text-align: center;
 }
+
+// arreglo de vista del celular 
+
+@media (max-width: 768px) {
+  .contenedorbanner {
+    padding-top: 150px;
+    height: auto;
+
+    h2 {
+      font-size: 28px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+  }
+
+  .textobanner,
+  .textohistoria {
+    padding: 15px;
+    max-width: 90%;
+
+    h1 {
+      font-size: 42px;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .yomaid img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .boton-dos {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .boton-dos:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contenedorbanner {
+    background-image: url("../contenedorimages/bannercelular.png");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 400px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+    color: #9f113a;
+      font-size: 22px;
+      padding: 0 15px;
+      text-align: center;
+    }
+
+    p {
+        color: #9f113a;
+      font-size: 16px;
+      padding: 10px 20px;
+      text-align: center;
+      font-weight: bolder;
+    }
+  }
+}
