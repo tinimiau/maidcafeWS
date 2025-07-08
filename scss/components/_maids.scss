@@ -390,18 +390,18 @@
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 0; // 👈 sin espacio abajo
+  padding-bottom: 0;
   text-align: center;
 }
 
 .titulo-galeria {
   font-family: $font-principal;
   font-size: 2rem;
-  color: #c38fff;
+  color: $color-secundario;
   background-color: #fff0fa;
   padding: 0.5rem 1.5rem;
   border-radius: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   letter-spacing: 1px;
-  margin-bottom: 0; // 👈 sin margen abajo
+  margin-bottom: 0; 
 }
